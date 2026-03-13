@@ -1,0 +1,18 @@
+[project]
+name = "pr-tica9-fullcycle"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Maria Luiza Queiroz",email = "144146640+marialuizaqueiroz@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas (>=3.0.1,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
